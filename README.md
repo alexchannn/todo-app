@@ -4,6 +4,12 @@ A minimalistic and fully responsive To-Do List application built with **HTML5**,
 
 ---
 
+## 🚀 **Live Demo**
+
+View the live demo: alexchannn.github.io/todo-app
+
+---
+
 ## ✨ **Features**
 
 - ✅ **Add Tasks:** Quickly add new tasks.
@@ -12,6 +18,12 @@ A minimalistic and fully responsive To-Do List application built with **HTML5**,
 - ✅ **Local Storage:** Tasks persist after browser refresh.
 - ✅ **Dark Mode:** Reduce eye strain with an optional dark mode toggle.
 - ✅ **Smooth Animations:** Enhances usability and visual appeal.
+
+---
+
+## 📷 **Screenshots**
+
+*(Add your screenshots here.)*
 
 ---
 
