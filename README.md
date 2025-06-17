@@ -21,12 +21,6 @@ View the live demo: alexchannn.github.io/todo-app
 
 ---
 
-## 📷 **Screenshots**
-
-*(Add your screenshots here.)*
-
----
-
 ## 🛠️ **Tech Stack**
 
 - **HTML5**
