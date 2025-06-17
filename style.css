@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+   background-color: #f4f6ff;
+   color: #333;
+   transition: background 0.3s, color 0.3s;
+}
+
+.container {
+   max-width: 500px;
+   margin: 50px auto;
+   background: white;
+   border-radius: 10px;
+   padding: 20px;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+#dark-mode-toggle {
+   cursor: pointer;
+   border: none;
+   background: none;
+   font-size: 24px;
+}
+
+form {
+   display: flex;
+}
+
+input[type="text"] {
+   flex: 1;
+   padding: 10px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   margin-right: 5px;
+}
+
+button[type="submit"] {
+   padding: 10px 15px;
+   border: none;
+   background-color: #5c7cff;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+   background-color: #3a56e2;
+}
+
+ul {
+   list-style: none;
+   margin-top: 20px;
+}
+
+li {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   border-bottom: 1px solid #eee;
+   transition: background-color 0.3s;
+}
+
+li.completed {
+   text-decoration: line-through;
+   color: #999;
+}
+
+button.delete-btn {
+   background: none;
+   border: none;
+   color: red;
+   cursor: pointer;
+}
+
+.dark-mode {
+   background-color: #121212;
+   color: #ffffff;
+}
+
+.dark-mode .container {
+   background-color: #1e1e1e;
+}
+
+.dark-mode input[type="text"] {
+   background-color: #333;
+   color: white;
+   border: 1px solid #444;
+}
